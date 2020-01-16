@@ -23,4 +23,12 @@ public class HelloController {
         System.out.println("Hello World");
         return  "HelloWorld!!";
     }
+
+    @RequestMapping(value = "/cc",method = RequestMethod.POST)
+    public String  getcc(){
+        System.out.println("Hello World");
+        return  "cc!!";
+    }
+
+
 }
